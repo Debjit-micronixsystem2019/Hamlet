@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+        <array key="Poppins-Regular.otf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.otf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Chat List View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ChatListViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="ChatListViewController" customModule="Hamlet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wfB-MK-BaC">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="95" id="L76-iw-pOk" customClass="ChatListCell" customModule="Hamlet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="95"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="L76-iw-pOk" id="iY2-9X-uWJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="95"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeIco" translatesAutoresizingMaskIntoConstraints="NO" id="Slv-EA-vc7">
+                                                    <rect key="frame" x="10" y="22.5" width="50" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="3g6-yV-ier"/>
+                                                        <constraint firstAttribute="height" constant="50" id="YVs-uK-bqF"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username/Group name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="p9b-V4-bJO">
+                                                    <rect key="frame" x="68" y="18.5" width="168" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="voo-L7-A4Y">
+                                                    <rect key="frame" x="68" y="39.5" width="57" height="17"/>
+                                                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FjT-jN-Pse">
+                                                    <rect key="frame" x="367" y="19.5" width="29" height="17"/>
+                                                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
+                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYf-SG-ZpX">
+                                                    <rect key="frame" x="375.5" y="41.5" width="20.5" height="14"/>
+                                                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                                                    <color key="textColor" red="0.16011436439999999" green="0.62012065540000005" blue="0.27922117880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="voo-L7-A4Y" firstAttribute="top" secondItem="p9b-V4-bJO" secondAttribute="bottom" constant="2" id="1TC-LY-FyS"/>
+                                                <constraint firstItem="FjT-jN-Pse" firstAttribute="centerY" secondItem="p9b-V4-bJO" secondAttribute="centerY" id="4Fh-Dq-irj"/>
+                                                <constraint firstAttribute="trailing" secondItem="qYf-SG-ZpX" secondAttribute="trailing" constant="18" id="BSc-aq-dcW"/>
+                                                <constraint firstItem="p9b-V4-bJO" firstAttribute="leading" secondItem="Slv-EA-vc7" secondAttribute="trailing" constant="8" id="DaW-fU-JGY"/>
+                                                <constraint firstItem="qYf-SG-ZpX" firstAttribute="top" secondItem="FjT-jN-Pse" secondAttribute="bottom" constant="5" id="hGr-li-CH6"/>
+                                                <constraint firstItem="p9b-V4-bJO" firstAttribute="top" secondItem="Slv-EA-vc7" secondAttribute="top" constant="-4" id="kdS-SV-1SP"/>
+                                                <constraint firstItem="voo-L7-A4Y" firstAttribute="leading" secondItem="Slv-EA-vc7" secondAttribute="trailing" constant="8" id="mHo-Mo-8cg"/>
+                                                <constraint firstItem="Slv-EA-vc7" firstAttribute="leading" secondItem="iY2-9X-uWJ" secondAttribute="leading" constant="10" id="rnu-vn-a63"/>
+                                                <constraint firstItem="Slv-EA-vc7" firstAttribute="centerY" secondItem="iY2-9X-uWJ" secondAttribute="centerY" id="sde-yM-wRs"/>
+                                                <constraint firstAttribute="trailing" secondItem="FjT-jN-Pse" secondAttribute="trailing" constant="18" id="v1S-X1-me2"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="0Ik-Nn-J6o"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="Jiu-CD-zuf"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="wfB-MK-BaC" secondAttribute="bottom" id="0G5-1Z-Qbd"/>
+                            <constraint firstItem="wfB-MK-BaC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Ugu-LZ-z7v"/>
+                            <constraint firstItem="wfB-MK-BaC" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="aZG-kp-PZj"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="wfB-MK-BaC" secondAttribute="trailing" id="bQe-Og-K8t"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="menu_icon2" id="jtP-BP-esL"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.98550724637681" y="109.15178571428571"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="oMO-Ld-7ZP">
+            <objects>
+                <viewController storyboardIdentifier="ChatVC" title="Chat" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ai3-Qe-xVv" customClass="ChatVC" customModule="Hamlet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pVq-Od-iPn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FFo-H2-MhY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="748"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ai3-Qe-xVv" id="C4d-BN-tnS"/>
+                                    <outlet property="delegate" destination="ai3-Qe-xVv" id="9xE-Tj-eAi"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ILl-0w-Bjc" customClass="AddShadow" customModule="Marcelo__Dr_Maria_Ana" customModuleProvider="target">
+                                <rect key="frame" x="6" y="800" width="402" height="54"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qaB-u1-PIw">
+                                        <rect key="frame" x="8" y="8" width="344" height="38"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
+                                        </variation>
+                                        <connections>
+                                            <outlet property="delegate" destination="ai3-Qe-xVv" id="O73-rI-thl"/>
+                                        </connections>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUn-yG-Tnh">
+                                        <rect key="frame" x="354" y="0.0" width="48" height="54"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                        <state key="normal" title="Send"/>
+                                        <connections>
+                                            <action selector="sendMessageButtonAction:" destination="ai3-Qe-xVv" eventType="touchUpInside" id="Kus-Zi-L4c"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="8og-mE-N1X"/>
+                                    <constraint firstItem="qaB-u1-PIw" firstAttribute="top" secondItem="ILl-0w-Bjc" secondAttribute="top" constant="8" id="FJL-Iq-coe"/>
+                                    <constraint firstAttribute="trailing" secondItem="qaB-u1-PIw" secondAttribute="trailing" constant="50" id="INB-D0-n9e"/>
+                                    <constraint firstItem="qaB-u1-PIw" firstAttribute="leading" secondItem="ILl-0w-Bjc" secondAttribute="leading" constant="8" id="JNw-zJ-gDp"/>
+                                    <constraint firstItem="ZUn-yG-Tnh" firstAttribute="top" secondItem="ILl-0w-Bjc" secondAttribute="top" constant="0.01" id="MrE-1x-Jqb"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZUn-yG-Tnh" secondAttribute="bottom" constant="0.01" id="OwN-R7-Bmc"/>
+                                    <constraint firstItem="ZUn-yG-Tnh" firstAttribute="leading" secondItem="qaB-u1-PIw" secondAttribute="trailing" constant="2" id="SxY-Ed-agG"/>
+                                    <constraint firstAttribute="bottom" secondItem="qaB-u1-PIw" secondAttribute="bottom" constant="8" id="tnU-3l-L3b"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZUn-yG-Tnh" secondAttribute="trailing" constant="0.01" id="xE5-vh-mmy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FFo-H2-MhY" firstAttribute="top" secondItem="1o1-ax-Id6" secondAttribute="top" constant="0.01" id="Ju5-cK-LGJ"/>
+                            <constraint firstItem="ILl-0w-Bjc" firstAttribute="top" secondItem="FFo-H2-MhY" secondAttribute="bottom" constant="8" symbolic="YES" id="RvH-bx-eMF"/>
+                            <constraint firstAttribute="trailing" secondItem="ILl-0w-Bjc" secondAttribute="trailing" constant="6" id="bik-Bg-VPs"/>
+                            <constraint firstItem="FFo-H2-MhY" firstAttribute="trailing" secondItem="1o1-ax-Id6" secondAttribute="trailing" constant="0.01" id="en5-6o-Gs5"/>
+                            <constraint firstItem="ILl-0w-Bjc" firstAttribute="bottom" secondItem="1o1-ax-Id6" secondAttribute="bottom" constant="-8" id="id7-aX-GBm"/>
+                            <constraint firstItem="ILl-0w-Bjc" firstAttribute="leading" secondItem="1o1-ax-Id6" secondAttribute="leading" constant="6" id="jMZ-pk-Ntc"/>
+                            <constraint firstItem="FFo-H2-MhY" firstAttribute="leading" secondItem="1o1-ax-Id6" secondAttribute="leading" constant="0.01" id="vhU-Kx-yM2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1o1-ax-Id6"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chat" image="ico-chat-active" id="35X-Nu-gbe"/>
+                    <connections>
+                        <outlet property="messageTextView" destination="qaB-u1-PIw" id="gdh-62-eEI"/>
+                        <outlet property="sendButton" destination="ZUn-yG-Tnh" id="FMP-7h-guR"/>
+                        <outlet property="tableView" destination="FFo-H2-MhY" id="lcf-LI-V0R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gHP-eh-KNZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="868" y="109"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="homeIco" width="31" height="31"/>
+        <image name="ico-chat-active" width="128" height="128"/>
+        <image name="menu_icon2" width="35" height="31.5"/>
+    </resources>
+</document>
