@@ -1,0 +1,27 @@
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "3Xh-rG-vYF"; */
+"3Xh-rG-vYF.placeholder" = "パスワード";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "4ls-Dz-ulj"; */
+"4ls-Dz-ulj.text" = "Eメール";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "Haj-sT-3PJ"; */
+"Haj-sT-3PJ.normalTitle" = "サインアップ";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "X02-YQ-2Ut"; */
+"X02-YQ-2Ut.normalTitle" = "参加する";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "a9k-gy-eeo"; */
+"a9k-gy-eeo.text" = "アカウントをお持ちではありませんか？";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "mBH-01-aOv"; */
+"mBH-01-aOv.placeholder" = "Eメール";
+
+/* Class = "UILabel"; text = "Log In"; ObjectID = "tzh-zu-TDB"; */
+"tzh-zu-TDB.text" = "ログインする";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "zk5-rC-BD0"; */
+"zk5-rC-BD0.text" = "パスワード";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "zye-VZ-Pmw"; */
+"zye-VZ-Pmw.normalTitle" = "パスワードをお忘れですか？";

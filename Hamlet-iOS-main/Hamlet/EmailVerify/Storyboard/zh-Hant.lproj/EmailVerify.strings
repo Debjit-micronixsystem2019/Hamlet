@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Verify Email"; ObjectID = "TLw-aQ-Vwe"; */
+"TLw-aQ-Vwe.normalTitle" = "驗證郵件";
+
+/* Class = "UILabel"; text = "Please enter the OTP you recieved on your email."; ObjectID = "Yrh-lU-Rvs"; */
+"Yrh-lU-Rvs.text" = "請輸入您在電子郵件中收到的 OTP。";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "g7x-rs-G6i"; */
+"g7x-rs-G6i.normalTitle" = "關";

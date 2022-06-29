@@ -1,0 +1,27 @@
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "3Xh-rG-vYF"; */
+"3Xh-rG-vYF.placeholder" = "पासवर्ड";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "4ls-Dz-ulj"; */
+"4ls-Dz-ulj.text" = "ईमेल";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "Haj-sT-3PJ"; */
+"Haj-sT-3PJ.normalTitle" = "साइन अप करें";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "X02-YQ-2Ut"; */
+"X02-YQ-2Ut.normalTitle" = "प्रस्तुत";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "a9k-gy-eeo"; */
+"a9k-gy-eeo.text" = "खाता नहीं है?";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "mBH-01-aOv"; */
+"mBH-01-aOv.placeholder" = "ईमेल";
+
+/* Class = "UILabel"; text = "Log In"; ObjectID = "tzh-zu-TDB"; */
+"tzh-zu-TDB.text" = "लॉग इन करें";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "zk5-rC-BD0"; */
+"zk5-rC-BD0.text" = "पासवर्ड";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "zye-VZ-Pmw"; */
+"zye-VZ-Pmw.normalTitle" = "पासवर्ड भूल गए?";

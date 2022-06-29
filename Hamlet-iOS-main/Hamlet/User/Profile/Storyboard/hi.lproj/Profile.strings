@@ -1,0 +1,24 @@
+
+/* Class = "UITextField"; placeholder = "DOB"; ObjectID = "Ozo-Dy-Tnb"; */
+"Ozo-Dy-Tnb.placeholder" = "DOB";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "QAB-4l-54d"; */
+"QAB-4l-54d.placeholder" = "नाम";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "b3w-Yz-sgw"; */
+"b3w-Yz-sgw.placeholder" = "लिंग";
+
+/* Class = "UILabel"; text = " "; ObjectID = "e5n-dc-vKD"; */
+"e5n-dc-vKD.text" = " ";
+
+/* Class = "UILabel"; text = " "; ObjectID = "gTM-BD-sEN"; */
+"gTM-BD-sEN.text" = " ";
+
+/* Class = "UILabel"; text = "-----------------------------------------------------------------------------------------------"; ObjectID = "tec-Mq-xtH"; */
+"tec-Mq-xtH.text" = "-----------------------------------------------------------------------------------------------";
+
+/* Class = "UILabel"; text = "User name"; ObjectID = "wJs-fo-3Sm"; */
+"wJs-fo-3Sm.text" = "उपयोगकर्ता नाम";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "zQC-aP-Jbk"; */
+"zQC-aP-Jbk.normalTitle" = "प्रस्तुत";

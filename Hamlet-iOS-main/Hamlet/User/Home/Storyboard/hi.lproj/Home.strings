@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "100"; ObjectID = "19O-l2-SsN"; */
+"19O-l2-SsN.text" = "100";
+
+/* Class = "UILabel"; text = "John Doe"; ObjectID = "52M-26-QZK"; */
+"52M-26-QZK.text" = "John Doe";
+
+/* Class = "UILabel"; text = "12 Nov 2021 at 10:30 AM"; ObjectID = "5uV-Ok-rPT"; */
+"5uV-Ok-rPT.text" = "12 Nov 2021 at 10:30 AM";
+
+/* Class = "UIButton"; normalTitle = "Leave"; ObjectID = "8CH-9Z-eEx"; */
+"8CH-9Z-eEx.normalTitle" = "छुट्टी";
+
+/* Class = "UILabel"; text = "Community Name"; ObjectID = "K9h-Bs-Msz"; */
+"K9h-Bs-Msz.text" = "Community Name";
+
+/* Class = "UILabel"; text = "Test message"; ObjectID = "KkB-ch-Tle"; */
+"KkB-ch-Tle.text" = "Test message";
+
+/* Class = "UIButton"; normalTitle = "Community"; ObjectID = "PyY-KE-lw2"; */
+"PyY-KE-lw2.normalTitle" = "समुदाय";
+
+/* Class = "UISegmentedControl"; SUg-aM-mZ4.segmentTitles[0] = "Communities"; ObjectID = "SUg-aM-mZ4"; */
+"SUg-aM-mZ4.segmentTitles[0]" = "समुदाय";
+
+/* Class = "UISegmentedControl"; SUg-aM-mZ4.segmentTitles[1] = "All Posts"; ObjectID = "SUg-aM-mZ4"; */
+"SUg-aM-mZ4.segmentTitles[1]" = "सभी पद";
+
+/* Class = "UISegmentedControl"; SUg-aM-mZ4.segmentTitles[2] = "My Bookings"; ObjectID = "SUg-aM-mZ4"; */
+"SUg-aM-mZ4.segmentTitles[2]" = "मेरी बुकिंग";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "W5o-nB-9Dz"; */
+"W5o-nB-9Dz.text" = "100";
+
+/* Class = "UILabel"; text = "1000"; ObjectID = "YMN-dL-Npp"; */
+"YMN-dL-Npp.text" = "1000";
+
+/* Class = "UIButton"; normalTitle = "Join call"; ObjectID = "dM3-5v-OYS"; */
+"dM3-5v-OYS.normalTitle" = "कॉल में शामिल हों";
+
+/* Class = "UIButton"; normalTitle = "Participate"; ObjectID = "dze-TC-i1M"; */
+"dze-TC-i1M.normalTitle" = "भाग लेना";
+
+/* Class = "UILabel"; text = "Test message"; ObjectID = "hmO-8R-Vhm"; */
+"hmO-8R-Vhm.text" = "Test message";
+
+/* Class = "UILabel"; text = "Coach Name"; ObjectID = "lOG-OA-bzH"; */
+"lOG-OA-bzH.text" = "Coach Name";
+
+/* Class = "UILabel"; text = "12 Oct 2021"; ObjectID = "lnL-y8-TN0"; */
+"lnL-y8-TN0.text" = "12 Oct 2021";
+
+/* Class = "UIButton"; normalTitle = "My Post"; ObjectID = "m0m-rg-6xL"; */
+"m0m-rg-6xL.normalTitle" = "मेरी पद";
+
+/* Class = "UIButton"; normalTitle = "View Full Details"; ObjectID = "m1J-AI-aTy"; */
+"m1J-AI-aTy.normalTitle" = "पूरा विवरण देखें";

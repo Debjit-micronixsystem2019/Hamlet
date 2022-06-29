@@ -1,0 +1,24 @@
+
+/* Class = "UITabBarItem"; title = "Chat"; ObjectID = "35X-Nu-gbe"; */
+"35X-Nu-gbe.title" = "チャット";
+
+/* Class = "UILabel"; text = " "; ObjectID = "FjT-jN-Pse"; */
+"FjT-jN-Pse.text" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Jan-DE-OyA"; */
+"Jan-DE-OyA.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "ZUn-yG-Tnh"; */
+"ZUn-yG-Tnh.normalTitle" = "送信";
+
+/* Class = "UIViewController"; title = "Chat"; ObjectID = "ai3-Qe-xVv"; */
+"ai3-Qe-xVv.title" = "チャット";
+
+/* Class = "UILabel"; text = "Username/Group name"; ObjectID = "p9b-V4-bJO"; */
+"p9b-V4-bJO.text" = "ユーザー名/グループ名";
+
+/* Class = "UILabel"; text = " "; ObjectID = "voo-L7-A4Y"; */
+"voo-L7-A4Y.text" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yjr-NS-Rzh"; */
+"yjr-NS-Rzh.text" = "Label";

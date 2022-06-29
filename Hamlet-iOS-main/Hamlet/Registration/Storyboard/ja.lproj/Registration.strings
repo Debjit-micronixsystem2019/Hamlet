@@ -1,0 +1,54 @@
+
+/* Class = "UITextField"; placeholder = "Contact Number"; ObjectID = "31Z-Ma-Nrj"; */
+"31Z-Ma-Nrj.placeholder" = "連絡先番号";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "6J2-0X-bbO"; */
+"6J2-0X-bbO.placeholder" = "パスワードを認証する";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "9mv-TK-XpE"; */
+"9mv-TK-XpE.placeholder" = "性別";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "Aej-ME-XK5"; */
+"Aej-ME-XK5.text" = "パスワード";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "BB7-cg-9rM"; */
+"BB7-cg-9rM.placeholder" = "Eメール";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "CDc-ho-du4"; */
+"CDc-ho-du4.text" = "すでにアカウントをお持ちですか？";
+
+/* Class = "UISegmentedControl"; FHm-2I-79Z.segmentTitles[0] = "I am a user"; ObjectID = "FHm-2I-79Z"; */
+"FHm-2I-79Z.segmentTitles[0]" = "私はユーザーです";
+
+/* Class = "UISegmentedControl"; FHm-2I-79Z.segmentTitles[1] = "I am a coach"; ObjectID = "FHm-2I-79Z"; */
+"FHm-2I-79Z.segmentTitles[1]" = "私はコーチです";
+
+/* Class = "UITextField"; placeholder = "Select Chat Language"; ObjectID = "JH1-BG-OWi"; */
+"JH1-BG-OWi.placeholder" = "チャット言語を選択";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "LkW-5b-mEY"; */
+"LkW-5b-mEY.normalTitle" = "ログインする";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "Qbu-dk-pG8"; */
+"Qbu-dk-pG8.text" = "サインアップ";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "acH-bd-Ocx"; */
+"acH-bd-Ocx.placeholder" = "名前";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "bzJ-qb-ys6"; */
+"bzJ-qb-ys6.placeholder" = "パスワード";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "fbY-WO-Mnq"; */
+"fbY-WO-Mnq.normalTitle" = "参加する";
+
+/* Class = "UILabel"; text = "I am over 18 years of age."; ObjectID = "qor-d8-sUQ"; */
+"qor-d8-sUQ.text" = "私は18歳以上です。";
+
+/* Class = "UITextField"; placeholder = "DOB"; ObjectID = "sT8-IU-iru"; */
+"sT8-IU-iru.placeholder" = "DOB";
+
+/* Class = "UITextField"; placeholder = "Select Country"; ObjectID = "tjg-Xx-3PT"; */
+"tjg-Xx-3PT.placeholder" = "国を選択";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "wuw-a4-rK9"; */
+"wuw-a4-rK9.text" = "Eメール";

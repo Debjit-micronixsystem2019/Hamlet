@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vqN-77-dvB">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="TvY-Dg-xSp">
+            <objects>
+                <viewController storyboardIdentifier="HelpViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vqN-77-dvB" customClass="NotificationViewController" customModule="Hamlet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OfL-pT-1pY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgImage" id="d4j-TT-fRj">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="k5m-EL-nUC">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="NotificationTableViewCell" rowHeight="144" id="HmE-mX-Gvd" customClass="NotificationTableViewCell" customModule="Hamlet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="144"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HmE-mX-Gvd" id="TbV-M4-QpK">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="144"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ioY-An-YU7">
+                                                    <rect key="frame" x="12" y="10" width="390" height="131"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Community Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="fPT-w7-Xh6">
+                                                            <rect key="frame" x="10" y="10" width="370" height="111"/>
+                                                            <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="15"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="fPT-w7-Xh6" secondAttribute="trailing" constant="10" id="72z-2v-qi9"/>
+                                                        <constraint firstItem="fPT-w7-Xh6" firstAttribute="top" secondItem="ioY-An-YU7" secondAttribute="top" constant="10" id="7Bd-au-CrO"/>
+                                                        <constraint firstAttribute="bottom" secondItem="fPT-w7-Xh6" secondAttribute="bottom" constant="10" id="KPm-Li-SZ0"/>
+                                                        <constraint firstItem="fPT-w7-Xh6" firstAttribute="leading" secondItem="ioY-An-YU7" secondAttribute="leading" constant="10" id="jf0-DX-a58"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="ioY-An-YU7" secondAttribute="bottom" constant="3" id="7kt-DY-vQc"/>
+                                                <constraint firstItem="ioY-An-YU7" firstAttribute="leading" secondItem="TbV-M4-QpK" secondAttribute="leading" constant="12" id="bd5-hR-d3n"/>
+                                                <constraint firstItem="ioY-An-YU7" firstAttribute="top" secondItem="TbV-M4-QpK" secondAttribute="top" constant="10" id="c6a-hN-EMO"/>
+                                                <constraint firstAttribute="trailing" secondItem="ioY-An-YU7" secondAttribute="trailing" constant="12" id="fK2-tp-3Zs"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="fPT-w7-Xh6" id="TAB-tf-kab"/>
+                                            <outlet property="postBackgroundView" destination="ioY-An-YU7" id="6FR-jM-Leo"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="vqN-77-dvB" id="kls-he-CT7"/>
+                                    <outlet property="delegate" destination="vqN-77-dvB" id="Fbh-iC-R5W"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bPG-Fb-ZUm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="k5m-EL-nUC" firstAttribute="top" secondItem="bPG-Fb-ZUm" secondAttribute="top" id="GX1-0K-Dc0"/>
+                            <constraint firstItem="k5m-EL-nUC" firstAttribute="leading" secondItem="OfL-pT-1pY" secondAttribute="leading" id="Q3P-Gl-ixX"/>
+                            <constraint firstItem="bPG-Fb-ZUm" firstAttribute="bottom" secondItem="k5m-EL-nUC" secondAttribute="bottom" id="ikW-5V-R3K"/>
+                            <constraint firstItem="bPG-Fb-ZUm" firstAttribute="trailing" secondItem="k5m-EL-nUC" secondAttribute="trailing" id="xdN-qT-ILU"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="bell" id="aBf-Hh-afF"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="k5m-EL-nUC" id="fRR-8c-Ws5"/>
+                        <outlet property="topConstraint" destination="GX1-0K-Dc0" id="rFp-cD-W5U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yac-q4-QC5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95.652173913043484" y="110.49107142857143"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bell" width="28" height="28"/>
+        <image name="bgImage" width="1080" height="775"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

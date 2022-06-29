@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Verify Email"; ObjectID = "TLw-aQ-Vwe"; */
+"TLw-aQ-Vwe.normalTitle" = "Verify Email";
+
+/* Class = "UILabel"; text = "Please enter the OTP you recieved on your email."; ObjectID = "Yrh-lU-Rvs"; */
+"Yrh-lU-Rvs.text" = "Please enter the OTP you recieved on your email.";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "g7x-rs-G6i"; */
+"g7x-rs-G6i.normalTitle" = "Close";

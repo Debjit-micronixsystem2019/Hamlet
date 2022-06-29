@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1Rg-Oe-1Kz"; */
+"1Rg-Oe-1Kz.text" = "Label";
+
+/* Class = "UILabel"; text = "Community Name"; ObjectID = "8Tt-lI-R1H"; */
+"8Tt-lI-R1H.text" = "Nombre de la comunidad";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "A4y-9z-RcE"; */
+"A4y-9z-RcE.text" = "Label";
+
+/* Class = "UILabel"; text = "1000 users"; ObjectID = "AGm-yy-GyI"; */
+"AGm-yy-GyI.text" = "1000 users";
+
+/* Class = "UILabel"; text = "Trainer Name"; ObjectID = "C4G-tE-EJi"; */
+"C4G-tE-EJi.text" = "Nombre del entrenador";
+
+/* Class = "UISegmentedControl"; E6n-Jw-KY7.segmentTitles[0] = "Trainers and  Communities"; ObjectID = "E6n-Jw-KY7"; */
+"E6n-Jw-KY7.segmentTitles[0]" = "Entrenadoras y comunidades";
+
+/* Class = "UISegmentedControl"; E6n-Jw-KY7.segmentTitles[1] = "Friends"; ObjectID = "E6n-Jw-KY7"; */
+"E6n-Jw-KY7.segmentTitles[1]" = "Amigas";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "Iph-lj-LpT"; */
+"Iph-lj-LpT.normalTitle" = "Búsqueda";
+
+/* Class = "UIButton"; normalTitle = "View  Details"; ObjectID = "M4e-aj-VDy"; */
+"M4e-aj-VDy.normalTitle" = "Ver detalles";
+
+/* Class = "UIButton"; normalTitle = "Book"; ObjectID = "N2s-gx-tRp"; */
+"N2s-gx-tRp.normalTitle" = "Libro";
+
+/* Class = "UILabel"; text = "Expertise in:-"; ObjectID = "RsD-Kr-Zwl"; */
+"RsD-Kr-Zwl.text" = "Experiencia en:-";
+
+/* Class = "UILabel"; text = "Obstacle to overcome"; ObjectID = "bU8-Jx-OM8"; */
+"bU8-Jx-OM8.text" = "Obstáculo a superar";
+
+/* Class = "UITextField"; placeholder = "Search a coach or community"; ObjectID = "dUh-hY-4Ga"; */
+"dUh-hY-4Ga.placeholder" = "Buscar una entrenadora o comunidad";
+
+/* Class = "UIButton"; normalTitle = "Choose your problem"; ObjectID = "dwE-CB-Lk3"; */
+"dwE-CB-Lk3.normalTitle" = "Elige tu problema";
+
+/* Class = "UIButton"; normalTitle = "View  Details"; ObjectID = "eeO-FH-iqH"; */
+"eeO-FH-iqH.normalTitle" = "Ver detalles";
+
+/* Class = "UILabel"; text = "Test message"; ObjectID = "ffW-pk-vrZ"; */
+"ffW-pk-vrZ.text" = "Test message";
+
+/* Class = "UILabel"; text = "Coach"; ObjectID = "n7j-l1-3Mt"; */
+"n7j-l1-3Mt.text" = "Coach";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "pOm-80-Zno"; */
+"pOm-80-Zno.text" = "100";
+
+/* Class = "UIButton"; normalTitle = "Join"; ObjectID = "w0N-iI-QRn"; */
+"w0N-iI-QRn.normalTitle" = "Unirse";

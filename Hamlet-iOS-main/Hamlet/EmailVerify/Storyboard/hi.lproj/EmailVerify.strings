@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Verify Email"; ObjectID = "TLw-aQ-Vwe"; */
+"TLw-aQ-Vwe.normalTitle" = "ईमेल सत्यापित करें";
+
+/* Class = "UILabel"; text = "Please enter the OTP you recieved on your email."; ObjectID = "Yrh-lU-Rvs"; */
+"Yrh-lU-Rvs.text" = "कृपया अपने ईमेल पर प्राप्त ओटीपी दर्ज करें।";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "g7x-rs-G6i"; */
+"g7x-rs-G6i.normalTitle" = "बंद";

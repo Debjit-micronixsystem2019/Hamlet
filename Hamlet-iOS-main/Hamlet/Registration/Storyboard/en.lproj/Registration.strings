@@ -1,0 +1,54 @@
+
+/* Class = "UITextField"; placeholder = "Contact Number"; ObjectID = "31Z-Ma-Nrj"; */
+"31Z-Ma-Nrj.placeholder" = "Contact Number";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "6J2-0X-bbO"; */
+"6J2-0X-bbO.placeholder" = "Confirm Password";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "9mv-TK-XpE"; */
+"9mv-TK-XpE.placeholder" = "Gender";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "Aej-ME-XK5"; */
+"Aej-ME-XK5.text" = "Password";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "BB7-cg-9rM"; */
+"BB7-cg-9rM.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "CDc-ho-du4"; */
+"CDc-ho-du4.text" = "Already have an account?";
+
+/* Class = "UISegmentedControl"; FHm-2I-79Z.segmentTitles[0] = "I am a user"; ObjectID = "FHm-2I-79Z"; */
+"FHm-2I-79Z.segmentTitles[0]" = "I am a user";
+
+/* Class = "UISegmentedControl"; FHm-2I-79Z.segmentTitles[1] = "I am a coach"; ObjectID = "FHm-2I-79Z"; */
+"FHm-2I-79Z.segmentTitles[1]" = "I am a coach";
+
+/* Class = "UITextField"; placeholder = "Select Chat Language"; ObjectID = "JH1-BG-OWi"; */
+"JH1-BG-OWi.placeholder" = "Select Chat Language";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "LkW-5b-mEY"; */
+"LkW-5b-mEY.normalTitle" = "Log In";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "Qbu-dk-pG8"; */
+"Qbu-dk-pG8.text" = "Sign Up";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "acH-bd-Ocx"; */
+"acH-bd-Ocx.placeholder" = "Name";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "bzJ-qb-ys6"; */
+"bzJ-qb-ys6.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "fbY-WO-Mnq"; */
+"fbY-WO-Mnq.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "I am over 18 years of age."; ObjectID = "qor-d8-sUQ"; */
+"qor-d8-sUQ.text" = "I am over 18 years of age.";
+
+/* Class = "UITextField"; placeholder = "DOB"; ObjectID = "sT8-IU-iru"; */
+"sT8-IU-iru.placeholder" = "DOB";
+
+/* Class = "UITextField"; placeholder = "Select Country"; ObjectID = "tjg-Xx-3PT"; */
+"tjg-Xx-3PT.placeholder" = "Select Country";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "wuw-a4-rK9"; */
+"wuw-a4-rK9.text" = "Email";

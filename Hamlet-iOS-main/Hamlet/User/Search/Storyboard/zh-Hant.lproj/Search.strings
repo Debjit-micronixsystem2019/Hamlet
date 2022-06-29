@@ -1,0 +1,57 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1Rg-Oe-1Kz"; */
+"1Rg-Oe-1Kz.text" = "Label";
+
+/* Class = "UILabel"; text = "Community Name"; ObjectID = "8Tt-lI-R1H"; */
+"8Tt-lI-R1H.text" = "Community Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "A4y-9z-RcE"; */
+"A4y-9z-RcE.text" = "Label";
+
+/* Class = "UILabel"; text = "1000 users"; ObjectID = "AGm-yy-GyI"; */
+"AGm-yy-GyI.text" = "1000 users";
+
+/* Class = "UILabel"; text = "Trainer Name"; ObjectID = "C4G-tE-EJi"; */
+"C4G-tE-EJi.text" = "Trainer Name";
+
+/* Class = "UISegmentedControl"; E6n-Jw-KY7.segmentTitles[0] = "Trainers and  Communities"; ObjectID = "E6n-Jw-KY7"; */
+"E6n-Jw-KY7.segmentTitles[0]" = "培訓師和社區";
+
+/* Class = "UISegmentedControl"; E6n-Jw-KY7.segmentTitles[1] = "Friends"; ObjectID = "E6n-Jw-KY7"; */
+"E6n-Jw-KY7.segmentTitles[1]" = "朋友們";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "Iph-lj-LpT"; */
+"Iph-lj-LpT.normalTitle" = "搜索";
+
+/* Class = "UIButton"; normalTitle = "View  Details"; ObjectID = "M4e-aj-VDy"; */
+"M4e-aj-VDy.normalTitle" = "查看詳情";
+
+/* Class = "UIButton"; normalTitle = "Book"; ObjectID = "N2s-gx-tRp"; */
+"N2s-gx-tRp.normalTitle" = "書";
+
+/* Class = "UILabel"; text = "Expertise in:-"; ObjectID = "RsD-Kr-Zwl"; */
+"RsD-Kr-Zwl.text" = "專長:-";
+
+/* Class = "UILabel"; text = "Obstacle to overcome"; ObjectID = "bU8-Jx-OM8"; */
+"bU8-Jx-OM8.text" = "克服的障礙";
+
+/* Class = "UITextField"; placeholder = "Search a coach or community"; ObjectID = "dUh-hY-4Ga"; */
+"dUh-hY-4Ga.placeholder" = "搜索教練或社區";
+
+/* Class = "UIButton"; normalTitle = "Choose your problem"; ObjectID = "dwE-CB-Lk3"; */
+"dwE-CB-Lk3.normalTitle" = "選擇您的問題";
+
+/* Class = "UIButton"; normalTitle = "View  Details"; ObjectID = "eeO-FH-iqH"; */
+"eeO-FH-iqH.normalTitle" = "查看詳情";
+
+/* Class = "UILabel"; text = "Test message"; ObjectID = "ffW-pk-vrZ"; */
+"ffW-pk-vrZ.text" = "Test message";
+
+/* Class = "UILabel"; text = "Coach"; ObjectID = "n7j-l1-3Mt"; */
+"n7j-l1-3Mt.text" = "Coach";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "pOm-80-Zno"; */
+"pOm-80-Zno.text" = "100";
+
+/* Class = "UIButton"; normalTitle = "Join"; ObjectID = "w0N-iI-QRn"; */
+"w0N-iI-QRn.normalTitle" = "加入";

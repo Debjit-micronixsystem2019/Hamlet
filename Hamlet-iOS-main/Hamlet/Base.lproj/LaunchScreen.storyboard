@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bzT-Si-xTn">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="7S8-M3-wMS">
+            <objects>
+                <viewController id="bzT-Si-xTn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qSo-UY-dbb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-logo" translatesAutoresizingMaskIntoConstraints="NO" id="HUc-nM-6AS">
+                                <rect key="frame" x="30" y="-180" width="260" height="768"/>
+                                <color key="backgroundColor" red="0.14901960780000001" green="0.15686274510000001" blue="0.23137254900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDU-HY-U6Q">
+                                <rect key="frame" x="10" y="352" width="300" height="187"/>
+                                <string key="text">“Imagine there's no countries. It isn't hard to do
+Nothing to kill or die for
+And no religion too
+Imagine all the people
+Living life in peace
+You”
+
+~John Lennon</string>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iqh-JT-KB7"/>
+                        <color key="backgroundColor" red="0.14901960780000001" green="0.15686274510000001" blue="0.23137254900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HUc-nM-6AS" firstAttribute="centerY" secondItem="qSo-UY-dbb" secondAttribute="centerY" constant="-80" id="4w5-xZ-zh9"/>
+                            <constraint firstItem="iqh-JT-KB7" firstAttribute="trailing" secondItem="sDU-HY-U6Q" secondAttribute="trailing" constant="10" id="7gR-0k-iDi"/>
+                            <constraint firstItem="iqh-JT-KB7" firstAttribute="trailing" secondItem="HUc-nM-6AS" secondAttribute="trailing" constant="30" id="HOV-oo-jME"/>
+                            <constraint firstItem="iqh-JT-KB7" firstAttribute="bottom" secondItem="sDU-HY-U6Q" secondAttribute="bottom" constant="29" id="QQv-2X-XbN"/>
+                            <constraint firstItem="sDU-HY-U6Q" firstAttribute="leading" secondItem="iqh-JT-KB7" secondAttribute="leading" constant="10" id="Qqy-GS-JYk"/>
+                            <constraint firstItem="HUc-nM-6AS" firstAttribute="leading" secondItem="iqh-JT-KB7" secondAttribute="leading" constant="30" id="UtV-8H-9Rd"/>
+                            <constraint firstItem="HUc-nM-6AS" firstAttribute="centerX" secondItem="qSo-UY-dbb" secondAttribute="centerX" id="YEe-MD-wJb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4wi-ce-p1B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash-logo" width="768" height="768"/>
+    </resources>
+</document>

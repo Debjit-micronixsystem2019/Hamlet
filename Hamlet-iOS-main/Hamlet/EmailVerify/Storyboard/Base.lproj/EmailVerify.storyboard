@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Email VerifyVC-->
+        <scene sceneID="cRk-eX-0aN">
+            <objects>
+                <viewController storyboardIdentifier="EmailVerifyVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="jTD-ML-HCF" customClass="EmailVerifyVC" customModule="Hamlet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3M4-jd-PNL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NbB-Cv-cA1">
+                                <rect key="frame" x="20" y="119" width="280" height="213"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter the OTP you recieved on your email." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yrh-lU-Rvs">
+                                        <rect key="frame" x="8" y="16" width="264" height="49"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ydf-RS-6Tb">
+                                        <rect key="frame" x="20" y="81" width="240" height="50"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qFJ-ex-8bO">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="50"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="22"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="t6K-8f-SPg"/>
+                                        </constraints>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLw-aQ-Vwe">
+                                        <rect key="frame" x="20" y="147" width="240" height="50"/>
+                                        <color key="backgroundColor" red="0.90054237839999995" green="0.1216298118" blue="0.230989784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="UNW-5p-fKa"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
+                                        <state key="normal" title="Verify Email">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="emailButtonAction:" destination="jTD-ML-HCF" eventType="touchUpInside" id="KUJ-yO-0sW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Yrh-lU-Rvs" firstAttribute="leading" secondItem="NbB-Cv-cA1" secondAttribute="leading" constant="8" id="4S9-xU-VQz"/>
+                                    <constraint firstAttribute="bottom" secondItem="TLw-aQ-Vwe" secondAttribute="bottom" constant="16" id="VWu-T7-YdB"/>
+                                    <constraint firstItem="ydf-RS-6Tb" firstAttribute="leading" secondItem="NbB-Cv-cA1" secondAttribute="leading" constant="20" id="YZE-lx-nlY"/>
+                                    <constraint firstAttribute="trailing" secondItem="ydf-RS-6Tb" secondAttribute="trailing" constant="20" id="aVJ-4j-zVt"/>
+                                    <constraint firstItem="TLw-aQ-Vwe" firstAttribute="top" secondItem="ydf-RS-6Tb" secondAttribute="bottom" constant="16" id="dDw-SU-ljS"/>
+                                    <constraint firstAttribute="trailing" secondItem="TLw-aQ-Vwe" secondAttribute="trailing" constant="20" id="gTb-S2-VUt"/>
+                                    <constraint firstItem="Yrh-lU-Rvs" firstAttribute="top" secondItem="NbB-Cv-cA1" secondAttribute="top" constant="16" id="hbn-1n-8fe"/>
+                                    <constraint firstItem="ydf-RS-6Tb" firstAttribute="top" secondItem="Yrh-lU-Rvs" secondAttribute="bottom" constant="16" id="p8W-U3-Ozc"/>
+                                    <constraint firstItem="TLw-aQ-Vwe" firstAttribute="leading" secondItem="NbB-Cv-cA1" secondAttribute="leading" constant="20" id="rfy-EZ-Wqw"/>
+                                    <constraint firstAttribute="trailing" secondItem="Yrh-lU-Rvs" secondAttribute="trailing" constant="8" id="wZy-TY-Pmh"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7x-rs-G6i">
+                                <rect key="frame" x="125" y="488" width="70" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="AmN-P8-EFk"/>
+                                    <constraint firstAttribute="height" constant="50" id="tV9-Yq-hB5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
+                                <state key="normal" title="Close">
+                                    <color key="titleColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeButtonAction:" destination="jTD-ML-HCF" eventType="touchUpInside" id="i8R-qz-G9Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WU6-a5-sfx"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.634765625" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WU6-a5-sfx" firstAttribute="trailing" secondItem="NbB-Cv-cA1" secondAttribute="trailing" constant="20" id="2dS-cE-C0E"/>
+                            <constraint firstItem="g7x-rs-G6i" firstAttribute="bottom" secondItem="WU6-a5-sfx" secondAttribute="bottom" constant="-30" id="B39-iM-9Wq"/>
+                            <constraint firstItem="g7x-rs-G6i" firstAttribute="centerX" secondItem="3M4-jd-PNL" secondAttribute="centerX" id="IFe-gc-b25"/>
+                            <constraint firstItem="NbB-Cv-cA1" firstAttribute="leading" secondItem="WU6-a5-sfx" secondAttribute="leading" constant="20" id="W2c-Dq-GnK"/>
+                            <constraint firstItem="NbB-Cv-cA1" firstAttribute="centerY" secondItem="WU6-a5-sfx" secondAttribute="centerY" multiplier="0.9" constant="-30" id="kXi-3q-Fk9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailVerifyButton" destination="TLw-aQ-Vwe" id="lkq-mW-WEs"/>
+                        <outlet property="emailVerifyView" destination="NbB-Cv-cA1" id="iuu-e4-6hD"/>
+                        <outlet property="otpTextField" destination="qFJ-ex-8bO" id="YGC-Of-TJE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NCF-g6-nYG" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="31.884057971014496" y="64.285714285714278"/>
+        </scene>
+    </scenes>
+</document>
